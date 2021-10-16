@@ -44,10 +44,12 @@ int runTest(ISerializerTest& testCase) {
         buf = testCase.serialize(data);
         testCase.deserialize(buf, res);
     }
+
     if (res != data) {
         std::cout << "result != data, abort." << std::endl;
         return -1;
     }
+
     std::cout << "* data size  : " << buf.bytesCount << std::endl;
 
     //begin serialization
@@ -91,6 +93,8 @@ std::string getLibraryName(SerializationLibrary name) {
             return "yas";
         case SerializationLibrary::ZPP:
             return "zpp";
+        case SerializationLibrary::CAPNPROTO:
+            return "capnproto";
     }
     throw "Unknown library name";
 }

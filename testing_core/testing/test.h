@@ -42,6 +42,7 @@ enum class SerializationLibrary {
     MSGPACK,
     PROTOBUF,
     YAS,
+    CAPNPROTO,
     ZPP
 };
 
