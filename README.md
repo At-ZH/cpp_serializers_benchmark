@@ -1,6 +1,6 @@
 # CPP serializers benchmark 
 
-Add capnproto in the benchmark. Now, there's some fault, never to use.
+Add capnproto in the benchmark. Now, there's some fault in the case of capnproto, never to use.
 
 ### tested libraries
 * [bitsery](https://github.com/fraillt/bitsery) 5.2.1
