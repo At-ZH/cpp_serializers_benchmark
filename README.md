@@ -1,4 +1,6 @@
-# CPP serializers benchmark
+# CPP serializers benchmark 
+
+Add capnproto in the benchmark.
 
 ### tested libraries
 * [bitsery](https://github.com/fraillt/bitsery) 5.2.1
